@@ -71,7 +71,15 @@ function saveCarEdited() {
     let saveCar = document.getElementById('saveCar');
     saveCar.style.display = "none";
 
-    alert('Datos actualizados');
+    setTimeout(() =>{
+        document.getElementById('brand').value = '';
+        document.getElementById('model').value = '';
+        document.getElementById('color').value = '';
+        document.getElementById('year').value = '';
+        document.getElementById('price').value = '';
+        alert('Datos actualizados');
+    }, 1000)
+
 }
 
 function addCar() {
