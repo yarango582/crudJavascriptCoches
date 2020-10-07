@@ -4,7 +4,7 @@ const cars = [
         brand: 'Renault',
         model: 'Stepway',
         color: 'Gray',
-        year: '30/08/2020',
+        year: '2020/07/30',
         price: 45000000
     }
 ];
